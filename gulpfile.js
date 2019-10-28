@@ -39,7 +39,7 @@ gulp.task("htmlmin", function () {
 })
 
 gulp.task("style", function () {
-  return gulp.src("source/sass/style.scss")
+  return gulp.src("source/scss/style.scss")
     .pipe(plumber())
     .pipe(sass())
     .pipe(postcss([
@@ -98,7 +98,7 @@ gulp.task("server", function() {
     ui: false
   });
 
-  gulp.watch("source/sass/**/*.{scss,sass}", gulp.series("style"));
+  gulp.watch("source/scss/**/*.{scss,sass}", gulp.series("style"));
   gulp.watch("source/*.html",  gulp.series("htmlmin", "refresh"));
 });
 
