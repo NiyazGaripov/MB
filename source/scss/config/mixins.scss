@@ -1,0 +1,14 @@
+// Determination of pixel density on the screen
+@mixin retina {
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    @content;
+  }
+}
+
+// Basic list styling
+@mixin list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
