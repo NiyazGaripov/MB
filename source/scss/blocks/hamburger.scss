@@ -1,0 +1,19 @@
+.hamburger {
+  transition: transform 400ms;
+  user-select: none;
+}
+
+.hamburger__line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: $gold;
+  stroke-width: 5.5;
+  stroke-linecap: round;
+
+  transition: 0.2s;
+
+  &--top,
+  &--bottom {
+    stroke-dasharray: 40 121;
+  }
+}
