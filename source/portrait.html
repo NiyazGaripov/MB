@@ -12,10 +12,20 @@
   </head>
 
   <body class="page">
-    <header class="header">
+    <header class="header header--closed">
         <a class="header__link" href="index.html">
           <h1 class="main__title">Mariya Body</h1>
         </a>
+        <button class="header__toggle" type="button" aria-label="Кнопка открытия/закрытия выпадающего меню">
+          <svg class="hamburger" width="30" height="30" viewBox="20 20 60 60">
+            <path class="hamburger__line hamburger__line--top"
+                  d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+            <path class="hamburger__line"
+                  d="m 70,50 h -40" />
+            <path class="hamburger__line hamburger__line--bottom"
+                  d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+          </svg>
+        </button>
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
