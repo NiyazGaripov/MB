@@ -1,5 +1,7 @@
-var header = document.querySelector(".header");
-var toggle = document.querySelector(".header__toggle");
+'use strict';
+
+const header = document.querySelector(".header");
+const toggle = document.querySelector(".header__toggle");
 
 header.classList.remove("header--nojs");
 
