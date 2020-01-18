@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+}
+
+// config
+@import "../../node_modules/normalize-scss/sass/normalize/_import-now.scss";
+@import "config/fonts.scss";
+@import "config/variables.scss";
+@import "config/mixins.scss";
+@import "config/visually-hidden.scss";
+
+// blocks
+@import "blocks/page.scss";
+@import "blocks/header.scss";
+@import "blocks/main.scss";
+@import "blocks/nav.scss";
+@import "blocks/hamburger.scss";
+@import "blocks/slideshow.scss";
+@import "blocks/portfolio.scss";
+@import "blocks/contacts.scss";
