@@ -1,0 +1,48 @@
+.about {
+  text-align: center;
+}
+
+.about__welcome {
+  margin: 0 0 60px;
+
+  font-size: 30px;
+}
+
+.about__wrapper {
+  position: relative;
+}
+
+.about__avatar {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+
+  overflow: hidden;
+
+  transform: rotate(45deg);
+  transition: transform ease 0.2s;
+
+  &:hover {
+    transform: rotate(0) scale(1.4);
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+
+    transform: rotate(-45deg) scale(1.4);
+    transition: transform ease 0.2s;
+
+    &:hover {
+      transform: rotate(0) scale(1);
+    }
+  }
+}
+
+.about__text {
+  margin: 0;
+  padding-top: 55px;
+
+  font-size: 24px;
+  text-align: left;
+}
