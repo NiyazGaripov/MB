@@ -5,4 +5,15 @@
 
 .contacts__text {
   margin: 0 0 20px;
+
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.contacts__link {
+  font-size: 28px;
+  font-weight: 300;
+  color: $gold;
+  text-decoration: none;
 }
