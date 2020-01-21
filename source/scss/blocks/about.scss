@@ -1,15 +1,25 @@
 .about {
+  font-weight: 300;
   text-align: center;
+  letter-spacing: 1.5px;
 }
 
 .about__welcome {
   margin: 0 0 60px;
 
   font-size: 30px;
+
+  @media ($tablet) {
+    font-size: 46px;
+  }
 }
 
 .about__wrapper {
   position: relative;
+
+  @media ($tablet) {
+    display: flex;
+  }
 }
 
 .about__avatar {
@@ -21,6 +31,10 @@
 
   transform: rotate(45deg);
   transition: transform ease 0.2s;
+
+  @media ($tablet) {
+    transform: translateY(24px) rotate(45deg);
+  }
 
   &:hover {
     transform: rotate(0) scale(1.4);
@@ -45,4 +59,9 @@
 
   font-size: 24px;
   text-align: left;
+
+  @media ($tablet) {
+    padding-top: 0;
+    width: 55%;
+  }
 }
