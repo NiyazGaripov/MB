@@ -9,6 +9,12 @@
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 1.5px;
+
+  @media ($tablet) {
+    margin-bottom: 35px;
+
+    font-size: 46px;
+  }
 }
 
 .contacts__link {
@@ -16,4 +22,8 @@
   font-weight: 300;
   color: $gold;
   text-decoration: none;
+
+  @media ($tablet) {
+    font-size: 52px;
+  }
 }
